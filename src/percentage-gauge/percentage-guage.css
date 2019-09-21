@@ -1,10 +1,13 @@
-.percentage-guage {
+.percentage-gauge {
     font-family: Roboto, sans-serif;
     font-size: 25px;
+
     width: 300px;
     height: 30px;
-    border: 1px solid blue;
+
     margin: 30px;
+    border: 1px solid blue;
     padding: 10px;
+
     text-align: right;
 }

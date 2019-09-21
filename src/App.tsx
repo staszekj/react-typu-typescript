@@ -4,7 +4,7 @@ import {PercentageGauge} from './percentage-gauge'
 
 const App: FunctionComponent = () => {
     return (
-        <PercentageGauge value={75}/>
+        <PercentageGauge value={75} />
     )
 };
 

@@ -22,17 +22,17 @@ export const PercentageGauge = (props: TPercentageGaugeProps) => {
 
     return (
         <div style={{background: linearGradient(color, percentageNumber)}}
-             className={"percentage-guage"}>{percentageStr}
+             className={"percentage-gauge"}>
+
+            {percentageStr}
+
         </div>
     )
 };
 
 
-type TA = {
-    n: number;
-    s: string;
-    fun_b: (k: number) => boolean
-}
+
+
 
 
 const a = {
@@ -40,3 +40,10 @@ const a = {
     s: 'test',
     fun_b: (x: number) => x > 10 ? true : false
 };
+
+type TA = {
+    n: number;
+    s: string;
+    fun_b: (k: number) => boolean
+}
+
