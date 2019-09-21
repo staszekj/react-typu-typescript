@@ -1,0 +1,10 @@
+
+.percentage-regulator {
+    margin: 50px 50px;
+}
+
+.percentage-regulator > .percentage-input {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px
+}
