@@ -45,11 +45,11 @@ export const PercentageGauge = (props: TPercentageGaugeProps) => {
 
 
 
-type TA = {
-    n: number;
-    s: string;
-    fun_b: (k: number) => boolean
-}
+// type TA = {
+//     n: number;
+//     s: string;
+//     fun_b: (k: number) => boolean
+// }
 
 const a = {
     n: 10,
